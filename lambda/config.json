@@ -1,0 +1,25 @@
+{
+	"0001":{
+		"manufacturerName": "Visualizzatore Videocamere",
+	    "manufacturerId": "IPCAM-0001",
+	    "modelName": "IPCAM-PTZ",
+	    "friendlyName": "Telecamera Giardino",
+	    "friendlyDescription": "IP Camera",
+	    "description" : "IPCAM-PTZ",
+	    "uri": "rtsp://your.domain.net:443/stream-1",
+	    "protocol": "RTSP",
+	    "resolution": {"width": 800, "height": 440},
+	    "authorizationType": "NONE",
+	    "videoCodec": "H264",
+	    "audioCodec": "G711",
+	    "idleTimeoutSeconds":60,
+	    "imageUri": "http://your.domain.net/snapshot.jpg",
+	    "configurations" : {
+							  "protocols": ["RTSP"],
+							  "resolutions": [{"width":800, "height":440}],
+							  "authorizationTypes": ["NONE"],
+							  "videoCodecs": ["H264"],
+							  "audioCodecs": ["G711"]
+							}
+		}
+}
